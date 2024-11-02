@@ -1,0 +1,2 @@
+Código: 1, Nome: melancia, Quantidade Vendida: 5, Valor Total: 50.00
+Código: 100, Nome: pera, Quantidade Vendida: 10, Valor Total: 30.00
