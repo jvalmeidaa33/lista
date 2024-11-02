@@ -1,0 +1,238 @@
+/* configuracoes visuais gerais */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SUSE", sans-serif;
+}
+.slogan {
+    display: inline-block;
+    width: auto; 
+    text-align: center;
+    color: #000; 
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 20px; 
+    background-color: #00ff08; 
+    border-radius: 30px; 
+    box-shadow: 0 4px 12px rgba(0, 255, 8, 0.3); 
+    line-height: 1.2; 
+    white-space: nowrap; 
+}
+
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    color: white;
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+h2.titulo{
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+
+/* configuraçoes visuais do cabeçalho */
+
+header{
+    width: 100%;
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: rgb(136, 136, 136);
+    text-decoration: none;
+    transform: 2s;  
+}
+
+header a:hover{
+    color: white;
+    transform: scale(0.5s);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+ 
+
+ .btn-contato button:hover, form .btn-enviar input:hover {
+    box-shadow: 0px 0px 8px #00ff08;    
+    transform: scale(1.05);
+}
+ 
+section.topo-do-site{
+   padding:40px 4%;
+
+}
+
+section.topo-do-site .flex {
+    align-items:center ;
+    justify-content:center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: white;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.topo-do-site .txt-topo-site p {
+    margin: 40px 0;
+}
+
+section.especialidades{
+    padding: 40px 4%;
+}
+section.especialidades .flex{
+    gap: 35px;
+}
+
+.especialidades .especialidades-box {
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 48px;
+    margin-top: 45px;
+    transition: .2s;
+}
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff6b;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #00ff08;
+   
+}
+.especialidades .especialidades-box h3{
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+/*Formulario de contato*/
+
+section.formulario{
+    padding:80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction:column ;
+    gap: 10px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.363);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+form textarea{
+    resize: none;
+    max-height: 200px;
+
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .btn-enviar input{
+    width: 120px;
+    background-color: #00ff08;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* ÉSTILO DO RODAPÉ */
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex {
+    justify-content: flex-start; 
+    gap: 20px; 
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid #00ff08;
+}
+
+footer .line-footer p i {
+    color: #00ff08;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+}
+
+/* Logo do Rodapé */
+.logo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: auto; 
+}
+
+.logo-footer img {
+    max-width: 300px; 
+}
+.logo-footer img {
+    width: 300px; /* ajuste o valor conforme o tamanho desejado */
+    height: auto; /* mantém a proporção da imagem */
+}
+
+
+
+
